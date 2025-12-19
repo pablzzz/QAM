@@ -1,8 +1,11 @@
 # The Quadrant Actuator Machine (QAM)
-The Quadrant Actuator Machine (QAM) is an arena for experimental tests that consists of a removable Petri dish, four pull-type electromagnets and four quadrant-shaped hammers, separated by a margin and two walls to minimize vibration cross-talk. A PETG 3D-printed base holds the four electromagnets fitted with hammers. Another 3D-printed structure, (the crown holding the Petri dish), sits on top of it, held in place by a pair of 3D-printed grips (Figure 1). See the full documentation [here](The_Quadrant_Actuator_Machine.pdf).
+## Introduction
+The Quadrant Actuator Machine (QAM) is an arena for experimental tests that consists of a removable Petri dish, four pull-type electromagnets and four quadrant-shaped hammers, separated by a margin and two walls to minimize vibration cross-talk. A PETG 3D-printed base holds the four electromagnets fitted with hammers. Another 3D-printed structure, (the crown holding the Petri dish), sits on top of it, held in place by a pair of 3D-printed grips. See the full documentation [here](The_Quadrant_Actuator_Machine.pdf).
 
-![fig_1](images/fig_1.png)
-Picture of the final version of the Slim QAM.
+<p align="center">
+  <img src="images/fig_1.png">
+  Picture of the final version of the Slim QAM.
+</p>
 
 The creation of the QAM was supported by the strategic programme Excellence Initiative at Jagiellonian University, Poland (RSM/122/FP).
 
@@ -28,9 +31,13 @@ fourth quadrant at 4 taps/s, the script can be called like this:
 The QAM was tested by performing experiments on a model organism to gather data to extend the Vicsek
 model (a swarm behavior model).
 
-![fig_5](images/fig_5.png)
-Control vs Vibration setup on the QAM (speed).
+<p align="center">
+  <img src="images/fig_5.png">
+  Control vs Vibration setup on the QAM (speed).
+</p>
 
-![fig_6](images/fig_6.png)
-Control vs Vibration setup on the QAM (KDE heatmaps). Both leftmost quadrants were active
-in the Vibration group. Note the avoidance of the active quadrants.
+<p align="center">
+  <img src="images/fig_6.png">
+  Control vs Vibration setup on the QAM (KDE heatmaps). Both leftmost quadrants were active
+  in the Vibration group. Note the avoidance of the active quadrants.
+</p>
